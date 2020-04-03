@@ -19,7 +19,7 @@ export default class UserList extends Component {
       <tbody>
         {this.state.user.map(items => (
           <tr key={items.id}>
-            <td>{items.name}</td>
+            <td>{items.name}</td>  
             <td>{items.email}</td>
             <td>{items.phone}</td>
             <Quantidade idUser={items.id} classe="albums" />
