@@ -15,7 +15,7 @@ function App() {
           <th>Fotos</th>
         </tr>
       </thead>
-      <UsersList/>
+      <UsersList/> 
     </table>
   
   );
